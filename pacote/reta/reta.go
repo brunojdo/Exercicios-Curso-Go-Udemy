@@ -7,8 +7,11 @@ import (
 //Inicializando com letra maiúscula é PÚBLICO
 // visível dentro e fora do pacote
 
-//Iniciando com letra minúscula é PRIVADO
+//Iniciando com letra minúscula ou _ é PRIVADO
 //visível apenas dentro do pacote
+
+//Não existe como tornar a função privada dentro de um arquivo.
+//Só é possível isolar uma função dentro do pacote.
 
 // Ponto representa uma coordenada no plano cartesiano
 type Ponto struct {
